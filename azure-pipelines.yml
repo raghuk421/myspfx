@@ -27,10 +27,10 @@ steps:
    displayname: "build and package solution"
 
 - task: PublishBuildArtifacts@1
-inputs:
- pathtoPublish: '$(Build.SourcesDirectory)/sharepoint/solution/mydevopspfx-1.sppkg'
- artifactName: 'spfx_arti'
-displayName: "Publish spfx build arfifacts"
+  inputs:
+   pathtoPublish: '$(Build.SourcesDirectory)/sharepoint/solution/mydevopspfx-1.sppkg'
+   artifactName: 'spfx_arti'
+  displayName: "Publish spfx build arfifacts"
 
 
 
