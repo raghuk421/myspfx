@@ -22,7 +22,6 @@ steps:
 - script: |
    gulp clean
    gulp build
-   gulp serve
    gulp bundle --ship
    gulp package-solution --ship
    
