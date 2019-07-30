@@ -31,6 +31,12 @@ steps:
    artifactName: 'spfx_arti'
   displayName: "Publish spfx build arfifacts"
 
+- task: PublishBuildArtifacts@1
+  inputs:
+   pathtoPublish: '$(Build.SourcesDirectory)/devops/release/'
+   artifactName: 'office365'
+  displayName: "Publish spfx Office 365 arfifacts"
+
 
 
 
