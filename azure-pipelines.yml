@@ -33,7 +33,7 @@ steps:
 
 - task: PublishBuildArtifacts@1
   inputs:
-   pathtoPublish: '$(Build.SourcesDirectory)/devops/release/'
+   pathtoPublish: '$(Build.SourcesDirectory)/sharepoint'
    artifactName: 'office365'
   displayName: "Publish spfx Office 365 arfifacts"
 
