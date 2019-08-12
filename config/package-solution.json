@@ -3,7 +3,7 @@
   "solution": {
     "name": "mydevopspfx-1-client-side-solution",
     "id": "cea7601a-8884-4b30-976a-f649686d1772",
-    "version": "1.0.0.0",
+    "version": "1.0.0.1",
     "includeClientSideAssets": false,
     "isDomainIsolated": false
   },
